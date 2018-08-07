@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/pref_key_usercategory"
+        android:title="@string/pref_usercategory_title"
+        android:summary="@string/pref_usercategory_summary">
+
+        <EditTextPreference
+            android:key="pref_key_username"
+            android:summary="@string/pref_summary_username"
+            android:title="@string/pref_title_username" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_key_gamecategory"
+        android:title="@string/pref_gamecategory_title"
+        android:summary="@string/pref_gamecategory_summary">
+
+        <ListPreference
+            android:key="@string/pref_key_countdownList"
+            android:title="@string/pref_title_countdownList"
+            android:defaultValue="60"
+            android:entries="@array/pref_counteroptions_listentries"
+            android:entryValues="@array/pref_counteroptions_listenvalues"/>
+
+
+        <CheckBoxPreference
+            android:key="@string/pref_key_simpleMinusTask"
+            android:title="@string/pref_title_simpleMinusTask"
+            android:summary="@string/pref_summary_simpleMinusTask"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="@string/pref_key_simplePlusTask"
+            android:title="@string/pref_title_simplePlusTask"
+            android:summary="@string/pref_summary_simplePlusTask"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="@string/pref_key_simpleMultiplicationTask"
+            android:title="@string/pref_title_simpleMultiplicationTask"
+            android:summary="@string/pref_summary_simpleMultiplicationTask"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="@string/pref_key_simpleTimeTableTask"
+            android:title="@string/pref_title_simpleTimeTableTask"
+            android:summary="@string/pref_summary_simpleTimeTableTask"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

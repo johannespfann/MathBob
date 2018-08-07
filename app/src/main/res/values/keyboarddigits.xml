@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Keyboard Text -->
+    <string name="game_text_digit_1">1</string>
+    <string name="game_text_digit_2">2</string>
+    <string name="game_text_digit_3">3</string>
+    <string name="game_text_digit_4">4</string>
+    <string name="game_text_digit_5">5</string>
+    <string name="game_text_digit_6">6</string>
+    <string name="game_text_digit_7">7</string>
+    <string name="game_text_digit_8">8</string>
+    <string name="game_text_digit_9">9</string>
+    <string name="game_text_digit_0">0</string>
+</resources>

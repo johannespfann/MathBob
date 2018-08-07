@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button_keyboard_success_style" parent="button_keyboard_default_style">
+        <item name="android:background">@drawable/button_success</item>
+        <item name="android:src">@drawable/ic_action_accept</item>
+    </style>
+</resources>

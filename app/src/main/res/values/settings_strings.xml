@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!-- Preferences -->
+
+    <!-- Menu-settings -->
+    <string name="menu_key_settings">Settings</string>
+    <string name="menu_key_help">Hilfe</string>
+
+    <!-- preferences - usercategory -->
+    <string name="pref_key_usercategory">pref.key.usercategory</string>
+    <string name="pref_usercategory_title">User settings</string>
+    <string name="pref_usercategory_summary"></string>
+    <!-- preferences - gamecategory -->
+    <string name="pref_key_gamecategory">pref.key.gamecategory</string>
+    <string name="pref_gamecategory_title">Game settings</string>
+    <string name="pref_gamecategory_summary">Auswahlmöglichkeiten für Singleplayer</string>
+    <!-- preferences - username -->
+    <string name="pref_key_username">pref.key.username</string>
+    <string name="pref_title_username">Username</string>
+    <string name="pref_summary_username">Ihr Benutzername. Angezeigt wird dieser bei allen Single, als auch Multiplayer-Spielen</string>
+    <!-- preferences - x - y -->
+    <string name="pref_key_simpleMinusTask">pref.key.simpleminustask</string>
+    <string name="pref_title_simpleMinusTask">Simple minus task</string>
+    <string name="pref_summary_simpleMinusTask">x - y</string>
+    <!-- preferences - y + x -->
+    <string name="pref_key_simplePlusTask">pref.key.simpleplustask</string>
+    <string name="pref_title_simplePlusTask">simple plus task</string>
+    <string name="pref_summary_simplePlusTask">x + y</string>
+    <!-- preferences - x * y -->
+    <string name="pref_key_simpleMultiplicationTask">pref.key.simplemultiplicationtask</string>
+    <string name="pref_title_simpleMultiplicationTask">simple multiplication task</string>
+    <string name="pref_summary_simpleMultiplicationTask">x * y</string>
+    <!-- preferences - 1 * 1 -->
+    <string name="pref_key_simpleTimeTableTask">pref.key.simpletimetabletask</string>
+    <string name="pref_title_simpleTimeTableTask">simple times table task</string>
+    <string name="pref_summary_simpleTimeTableTask">1 * 1</string>
+
+    <!-- preferences - counteroptions -->
+
+    <string name="pref_key_countdownList">pref.key.countdownlist</string>
+    <string name="pref_title_countdownList">Spielzeit in Sekunden</string>
+
+    <!-- preferences - time settings-->
+    <string-array name="pref_counteroptions_listentries">
+        <item>60 Sekunden</item>
+        <item>120 Sekunden</item>
+        <item>180 Sekunden</item>
+    </string-array>
+    <string-array name="pref_counteroptions_listenvalues">
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+</resources>
